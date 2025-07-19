@@ -1,6 +1,6 @@
 # **Keeper: The Smart Pet Feeder**
 
-![Smart Pet Feeder](https://example.com/smart-pet-feeder-image.jpg)
+![Smart Pet Feeder](https://github.com/deshan0/keeper-smart-pet-feeder/blob/207ea345081864286d60e732e49a061c5e962aa8/Images/Smart%20Pet%20Feeder.png)
 
 ## **Introduction 🚀**
 Many pet owners struggle with maintaining consistent feeding schedules for their pets due to busy lifestyles, travel, or unforeseen circumstances. Keeper is here to solve that problem by automating feeding routines, ensuring pets get the right amount of food at the right time.
