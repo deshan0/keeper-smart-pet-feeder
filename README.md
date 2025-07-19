@@ -22,9 +22,6 @@ This IoT-powered pet feeder offers **real-time monitoring**, **precision feeding
 ![Static Badge](https://img.shields.io/badge/Firebase-black?logo=firebase&logoColor=%23EB844E)
 ![Static Badge](https://img.shields.io/badge/LabVIEW-black?logo=labview)
           
-          
-          
-
 ### **Software**
 
 - **Android Studio (Java/Kotlin)** – Mobile app development.
@@ -42,6 +39,33 @@ This IoT-powered pet feeder offers **real-time monitoring**, **precision feeding
 - **Custom-Level Sensor (LED + LDR Array)**: Custom-built sensor to measure food levels in storage, providing real-time feedback through the app.
 - **Ultrasonic Sensor**: Detects when a pet or human is nearby, triggering the camera to capture images and send them to the Hugging Face AI model.
 
+## **LabVIEW Control**
+
+LabVIEW processes all sensor inputs and actuators using the NI DAQmx, maintains the connection with the programmable DC power supply, and integrates a dashboard to monitor real-time data and system status of the system.
+
+<table style="width: 100%; border-collapse: collapse;">
+  <tr>
+    <td colspan="3" align="center" style="padding: 0;">
+      <img src="images/interface.png" alt="Image 1" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <p align="center">Dashboard displaying real-time food level, Motor control, and system status</p>
+    </td>
+  </tr>
+  <tr>
+    <td style="padding: 5px; text-align: center;">
+      <img src="images/main vi.png" alt="Image 2" style="width: 100%; height: auto; display: block;">
+      <p>Load cell vi</p>
+    </td>
+    <td style="padding: 5px; text-align: center;">
+      <img src="images/power supply connection.png" alt="Image 3" style="width: 100%; height: auto; display: block;">
+      <p>Connection with the programmable DC supply</p>
+    </td>
+    <td style="padding: 5px; text-align: center;">
+      <img src="images/fan speed regulation.png" alt="Image 4" style="width: 100%; height: auto; display: block;">
+      <p>Varying the speed of the fan</p>
+    </td>
+  </tr>
+</table>
+
 ## **Getting Started 🚀**
 
 To explore the project, please follow these steps:
@@ -51,13 +75,8 @@ To explore the project, please follow these steps:
 3. **Install LabVIEW** and the **NI DAQmx drivers** to interface with the sensors and actuators.
 4. **Run the Android app** using Android Studio or directly on your device.
 
-
-
-
-
 ## **Future Work 🔮**
+
 - **Multi-pet Support**: Allow the app to manage multiple pets with personalized feeding schedules.
-
 - **Enhanced Biometric Identification**: Further development of ResNet CNN for precise pet identification.
-
 - **Expanded Features**: Integrate additional sensors to monitor pet activity and health.
