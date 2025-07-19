@@ -41,27 +41,29 @@ This IoT-powered pet feeder offers **real-time monitoring**, **precision feeding
 
 ## **LabVIEW Control**
 
-LabVIEW processes all sensor inputs and actuators using the NI DAQmx, maintains the connection with the programmable DC power supply, and integrates a dashboard to monitor real-time data and system status of the system.
+[**View the project slides on Canva**](https://www.canva.com/design/DAGtmpuYUc0/LGxgbsBoaLjTx6qRb8mZMQ/view?utm_content=DAGtmpuYUc0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h48197c4098)
+
+LabVIEW processes all sensor inputs and actuators using the NI DAQmx, maintains the connection with the programmable DC power supply, and integrates a dashboard to monitor real-time data and system status.
 
 <table style="width: 100%; border-collapse: collapse;">
   <tr>
     <td colspan="3" align="center" style="padding: 0;">
-      <img src="images/interface.png" alt="Image 1" style="width: 50%; height: auto; display: block; margin: 0 auto;">
+      <img src="Images/Keeper_Front_Panel.png" alt="Image 1" style="width: 80%; height: auto; display: block; margin: 0 auto;">
       <p align="center">Dashboard displaying real-time food level, Motor control, and system status</p>
     </td>
   </tr>
   <tr>
     <td style="padding: 5px; text-align: center;">
-      <img src="images/main vi.png" alt="Image 2" style="width: 100%; height: auto; display: block;">
-      <p>Load cell vi</p>
+      <img src="Images/Portion_control_vi.png" alt="Image 2" style="width: 100%; height: auto; display: block;">
+      <p>Portion control integration with Firebase.</p>
     </td>
     <td style="padding: 5px; text-align: center;">
-      <img src="images/power supply connection.png" alt="Image 3" style="width: 100%; height: auto; display: block;">
-      <p>Connection with the programmable DC supply</p>
+      <img src="Images/Motor_control_vi.png" alt="Image 3" style="width: 100%; height: auto; display: block;">
+      <p>Connection with Motor Controller.</p>
     </td>
     <td style="padding: 5px; text-align: center;">
-      <img src="images/fan speed regulation.png" alt="Image 4" style="width: 100%; height: auto; display: block;">
-      <p>Varying the speed of the fan</p>
+      <img src="Images/Food_level_vi.png" alt="Image 4" style="width: 100%; height: auto; display: block;">
+      <p>Custom built level sensor.</p>
     </td>
   </tr>
 </table>
@@ -80,3 +82,5 @@ To explore the project, please follow these steps:
 - **Multi-pet Support**: Allow the app to manage multiple pets with personalized feeding schedules.
 - **Enhanced Biometric Identification**: Further development of ResNet CNN for precise pet identification.
 - **Expanded Features**: Integrate additional sensors to monitor pet activity and health.
+
+Feel free to reach out for questions or collaboration opportunities!
